@@ -1,0 +1,6 @@
+,class_0_auc,class_1_auc,class_2_auc,class_3_auc,class_4_auc,class_5_auc,class_6_auc,class_7_auc,class_8_auc,class_9_auc
+Random,0.7894,0.9051,0.8964,,,,,,,
+Stratified,0.7912,0.9029,0.8931,,,,,,,
+k-Center,0.7884,0.9051,0.8961,,,,,,,
+Prototype (NE),0.7491,0.8675,0.849,,,,,,,
+Per-Class k-Center,0.7286,0.8829,0.869,,,,,,,

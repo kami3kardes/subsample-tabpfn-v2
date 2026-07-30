@@ -1,0 +1,6 @@
+,coreset,prototype,random,stratified,stratified_coreset
+coreset,0,10,3,4,9
+prototype,1,0,0,0,5
+random,8,11,0,7,9
+stratified,7,11,4,0,9
+stratified_coreset,2,6,2,2,0

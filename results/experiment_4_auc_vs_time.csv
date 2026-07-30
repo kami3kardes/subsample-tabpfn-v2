@@ -1,0 +1,6 @@
+strategy_label,Mean AUC,Mean Total Time (s)
+k-Center,0.8776,192.4632
+Prototype (NE),0.8671,379.0532
+Random,0.8828,162.9721
+Stratified,0.8821,165.2067
+Per-Class k-Center,0.8689,175.7622

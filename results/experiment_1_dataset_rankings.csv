@@ -1,0 +1,15 @@
+dataset,Random,Stratified,k-Center,Prototype (NE),Per-Class k-Center
+credit-g,1,1,1,1,1
+phoneme,1,1,1,1,1
+pendigits,1,1,1,1,1
+mozilla4,2,4,3,5,1
+nomao,4,3,1,5,2
+bank-marketing,2,1,3,4,5
+adult,3,2,1,4,5
+volkert,1,2,5,3,4
+connect-4,1,3,2,5,4
+jannis,3,1,2,5,4
+numerai28.6,1,2,3,4,5
+higgs,1,2,3,5,4
+MiniBooNE,1,2,3,4,5
+covertype,1,2,3,5,4

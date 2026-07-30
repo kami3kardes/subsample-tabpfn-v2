@@ -1,0 +1,37 @@
+# Large prediction files
+results/*.pkl
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info
+.ipynb_checkpoints
+
+# Environment
+.env
+
+# Raw downloaded datasets
+data/
+
+# Model weights
+*.pt
+*.ckpt
+
+# Generated archives / bundles (regenerable)
+*.zip
+
+# Backup directories and files (regenerable snapshots)
+results/_n14_backup/
+results/backup_*/
+*.bak
+*.bak_*
+
+# Runtime logs
+logs/
+
+# Thesis write-up and notes (versioned separately) — code repo only
+thesis_document/
+obsidian-vault/

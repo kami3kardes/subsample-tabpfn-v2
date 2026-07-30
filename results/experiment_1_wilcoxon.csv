@@ -1,0 +1,11 @@
+strategy_a,strategy_b,a_wins,b_wins,ties,n_fail_pairs,statistic,p_value,significant_0.05,p_value_holm,significant_holm_0.05
+coreset,prototype,10,1,0,0,9.0,0.032227,True,0.161135,False
+coreset,random,3,8,0,0,11.0,0.053711,False,0.214844,False
+coreset,stratified,4,7,0,0,14.0,0.101562,False,0.304686,False
+coreset,stratified_coreset,9,2,0,0,5.0,0.009766,True,0.058596,False
+prototype,random,0,11,0,0,0.0,0.000977,True,0.00977,True
+prototype,stratified,0,11,0,0,0.0,0.000977,True,0.00977,True
+prototype,stratified_coreset,5,6,0,0,32.0,0.96582,False,0.96582,False
+random,stratified,7,4,0,0,14.0,0.101562,False,0.304686,False
+random,stratified_coreset,9,2,0,0,3.0,0.004883,True,0.039064,True
+stratified,stratified_coreset,9,2,0,0,3.0,0.004883,True,0.039064,True

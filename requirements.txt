@@ -1,0 +1,7 @@
+tabpfn
+scikit-learn
+numpy
+pandas
+matplotlib
+scipy
+openml
