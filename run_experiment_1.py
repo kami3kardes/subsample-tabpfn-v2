@@ -4,7 +4,7 @@ Entry point for Experiment 1: Strategy comparison at fixed subsample size.
 
 Usage
 -----
-# Full run (all 10 datasets × 4 seeds × 5 strategies = 200 TabPFN runs)
+# Full run (all 14 datasets × 4 seeds × 5 strategies = 280 TabPFN runs)
 python run_experiment_1.py
 
 # Dry run: one dataset (credit-g), one seed — for pipeline validation

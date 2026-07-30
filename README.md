@@ -24,13 +24,13 @@ pip install -r requirements.txt
 # Dry run: one dataset (credit-g), one seed — pipeline validation
 python run_experiment_1.py --dry-run
 
-# Experiment 1: 10 datasets × 4 seeds × 5 strategies = 200 runs (fixed 10K budget)
+# Experiment 1: 14 datasets × 4 seeds × 5 strategies = 280 runs (fixed 10K budget)
 python run_experiment_1.py
 
-# Experiment 2: scaling curves — 4 datasets × 4 budget fractions × 5 strategies × 4 seeds
+# Experiment 2: scaling curves — 11 datasets × 4 budget fractions × 5 strategies × 4 seeds
 python run_experiment_2.py
 
-# Experiment 3: diversity vs size — 10 datasets × M in [1,3,5,10] × 2 inner strategies × 4 seeds
+# Experiment 3: diversity vs size — 14 datasets × M in [1,3,5,10] × 2 inner strategies × 4 seeds
 python run_experiment_3.py
 ```
 
@@ -62,7 +62,7 @@ python analysis/visualize_sampling.py     # PCA sampling visualizations (bank-ma
 │   ├── prototype_sampler.py     # Nearest-Enemy (NE): boundary-focused via BallTree
 │   └── stratified_coreset.py   # Stratified k-Center (hybrid)
 ├── experiments/
-│   ├── experiment_1.py          # Fixed budget: 5 strategies × 10 datasets × 4 seeds
+│   ├── experiment_1.py          # Fixed budget: 5 strategies × 14 datasets × 4 seeds
 │   ├── experiment_2.py          # Scaling: budget fractions 10/25/50/100%
 │   └── experiment_3.py          # Ensemble: M members × budget//M per member
 ├── analysis/

@@ -74,7 +74,7 @@ def check_csvs():
     if m1_path.exists():
         m1 = pd.read_csv(m1_path)
         n = len(m1)
-        expected = 200  # 10 datasets × 5 strategies × 4 seeds
+        expected = 280  # 14 datasets × 5 strategies × 4 seeds
         status = PASS if n == expected else FAIL
         print(f"\n{status} {m1_path.name}: {n} rows (expected {expected})")
 

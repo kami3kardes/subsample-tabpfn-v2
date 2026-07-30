@@ -4,7 +4,8 @@ Entry point for Experiment 3: Fixed Budget — Diversity vs. Size.
 
 Usage
 -----
-# Full run (2 inner strategies × 4 M values × 10 datasets × 4 seeds = 1,520 TabPFN runs)
+# Full run (2 inner strategies × 14 datasets × 4 seeds, each fitting M∈[1,3,5,10]
+#  members: sum(M)=19 TabPFN calls per cell → 19 × 2 × 14 × 4 = 2,128 TabPFN calls)
 python run_experiment_3.py
 
 # Dry run: one dataset, M=1, one seed — for pipeline validation

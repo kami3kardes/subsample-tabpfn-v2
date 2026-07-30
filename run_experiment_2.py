@@ -4,7 +4,7 @@ Entry point for Experiment 2: Subsample Size Scaling Curves.
 
 Usage
 -----
-# Full run (4 datasets × 4 budgets × 4 seeds × 5 strategies = 320 TabPFN runs)
+# Full run (11 datasets × 4 budgets × 4 seeds × 5 strategies = 880 TabPFN runs)
 python run_experiment_2.py
 
 # Dry run: one dataset, one budget, one seed — for pipeline validation
